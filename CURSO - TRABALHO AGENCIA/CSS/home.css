@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-dark: #000;
+    --color-white: #fff;
+    --color-azul-escuro: #180F4A; 
+    --color-cinza: #666666;
+    --color-pink: #FF2978;
+    --color-roxo:#090422;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 100px;
+    background-color: var(--color-white);
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu {
+    justify-content: center;
+    text-align:center;
+    padding: 20px;
+}
+
+
+.menu a{
+    color:var(--color-azul-escuro);
+    text-decoration: none;
+    font-size:20px;
+    padding:20px 16px; 
+}
+
+.menu a:hover{
+    color: var(--color-pink);
+}
+
+.menu-icons {
+    justify-content: center;
+    text-align:center;
+    padding:20px;
+}
+
+.menu-icons a{
+    color:var(--color-azul-escuro);
+    text-decoration: none;
+    font-size:20px;
+    padding:20px 16px; 
+}
+
+.menu-icons a:hover{
+    color: var(--color-pink);
+}
+
+.carousel-item img {
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+.carousel-item img:hover {
+    transform: scale(1.05); 
+}
+  
+.carousel-item img:hover {
+    transform: scale(1.05); 
+}
+
+section{
+    display: inline-block;
+    max-height: 85vh;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom: 5%;
+    text-align: center;
+    
+}
+
+section h2{
+    width:100%;
+    font-size:50px;
+    margin:0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color:var(--color-azul-escuro);
+}
+
+.servicos{
+    display: inline-block;
+    margin-top:5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding:20px;
+    margin:1%;
+    border:1px solid var(--color-pink);
+    border-radius:10px;
+}
+
+.texto-oculto{
+    display: none;
+}
+
+.card:hover{
+    background-color: var(--color-pink);
+    color:white;
+    padding:30px;
+}
+
+.margem-alta{
+    margin-bottom: 300px;
+}
+
+.margem-esquerda1{
+    margin-left: 350px;
+}
+
+.margem-esquerda2{
+    margin-left: 400px;
+}
+
+.font-lobo{
+    font-family: 'Lobster', cursive;
+}
+
